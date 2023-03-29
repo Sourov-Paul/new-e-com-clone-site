@@ -1,0 +1,135 @@
+.main_Banner {background: #f9f3f0;height: 80vh;}
+
+/* banner left side start */
+.logo_hot-deal.text-bold {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fa2982;
+}
+.logo_hot-deal.text-bold span{
+  margin-left:10px;
+  font-size:18px
+}
+
+h1.banner_title {
+  letter-spacing: -0.03em;
+  font-size: 60px;
+
+  line-height: 1.2;
+  animation:1000ms ease-in-out 0s normal none 1 running customOne
+}
+@keyframes customOne {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 50%, 0);
+      transform: translate3d(0, 50%, 0);
+  }
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+button.shop_button {
+  border: none;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 12px 9px;
+  margin: 0px;
+}
+button.shop_button a{
+  text-decoration:none;
+ 
+}
+h1.banner_title {
+  margin-bottom: 10%;
+}
+
+
+.banner__imag img {
+  margin-top: 75px;
+}
+
+.image_div {
+  padding-left: 30px;
+}
+
+i.sss.fa-solid.fa-cart-plus,span.shopButton {
+  margin: 0px 5px;
+  color: #3f3f3f;
+  font-size: 20px;
+}
+.image_div {
+  display: flex;
+  margin-left:35px
+}
+.image_div img{
+  margin-left:-30px;
+  width:70px
+}
+
+.image_div {
+  display: 20px;
+}
+
+.image_div img {
+  
+  width: 51px;
+  height: 42px;
+  margin-right:4px
+}
+.small-ratings i {
+  color: gold;
+}
+.reew span {
+  font-weight: bold;
+}
+
+span.title_rev {
+  font-weight: 400;
+  font-family: ui-monospace;
+  color: #787878;
+}
+/* banner left side end */
+/* bannar right start  */
+.banner__imag  {
+  position: relative;
+ 
+  border-radius: 100%;
+  -webkit-animation-name: up-down;
+          animation-name: up-down;
+  -webkit-animation-duration:3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+          animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@keyframes up-down {
+  0% {
+      top: 10px;
+  }
+  100% {
+      top: 80px;
+  }
+}
+ .product-price {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+span.price-amount {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3577f0;
+}
+ span.text {
+  color: #777777;
+}
+/* bannar right end */
