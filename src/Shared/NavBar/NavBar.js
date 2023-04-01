@@ -11,20 +11,20 @@ const NavBar = () => {
           <div className="firstHeader">
             <nav className="navbar container ">
               <div className="container-fluid">
-                <a className="navbar-brand " href="/">
+                <Link className="navbar-brand " to="/">
                   <div className="drop-cont d-flex clearfix">
                     <ul className="dropdown-list-anima">
                       <li>
                         English <i className="fa-solid fa-chevron-down"></i>
                         <ul>
                           <li>
-                            <a href="/">Satu</a>
+                            <Link to='/'>Satu</Link>
                           </li>
                           <li>
-                            <a href="/">Dua</a>
+                            <Link to='/'>Dua</Link>
                           </li>
                           <li>
-                            <a href="/">Tiga</a>
+                            <Link to='/'>Tiga</Link>
                           </li>
                         </ul>
                       </li>
@@ -35,16 +35,16 @@ const NavBar = () => {
                         USA <i className="fa-solid fa-chevron-down"></i>
                         <ul>
                           <li>
-                            <a href="/">Bangla</a>
+                            <Link  to="/">Bangla</Link>
                           </li>
                           <li>
-                            <a href="/">Hindi</a>
+                            <Link  to="/">Hindi</Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </div>
-                </a>
+                </Link>
                 <div className="ms-auto">
                   <div className="contact_signIn">
                     <ul className="d-flex align-items-end  mb-0 help_join_sign">

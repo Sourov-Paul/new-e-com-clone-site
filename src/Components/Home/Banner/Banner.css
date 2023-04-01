@@ -1,5 +1,18 @@
-.main_Banner {background: #f9f3f0;height: 80vh;}
+.main_Banner {
+  background: #f9f3f0;
+  /* height: 80vh; */
+  position: relative;
+  z-index: 0;
+}
 
+
+.mainHeader {
+  position: relative;
+  z-index: 1;
+}
+.banner_div.right_banner {
+  overflow: hidden;
+}
 /* banner left side start */
 .logo_hot-deal.text-bold {
   font-size: 20px;
@@ -132,4 +145,46 @@ span.price-amount {
  span.text {
   color: #777777;
 }
+.product-price {
+  position: absolute;
+  top: 35%;
+  left: 32%;
+  padding: 28px;
+  background: white;
+  border-radius: 50%;
+}
+
+.banner__imag {
+  position: relative;
+
+}
+.smoll_image {
+  width: 115px;
+  max-width: 100%;
+  position: absolute;
+  right: 0px;
+  top: 47%;
+ 
+}
+ul.shep {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.shep .shep-1 {
+  margin-right: 10%;
+}
+
+
+
+.banner_sheps {
+  margin-top: -30.5%;
+}
+
+li.shep-2 {
+  margin-top: 8%;
+  margin-right: 157px;
+}
+
+
 /* bannar right end */

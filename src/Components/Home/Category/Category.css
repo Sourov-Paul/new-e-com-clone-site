@@ -1,0 +1,80 @@
+.mini_div {
+  text-align: center;
+  margin-top: 52px;
+  border:  1px solid #dadada;
+  width: 77%;
+  padding: 12px;
+  transition: transform .9s;
+}
+
+.mini_div:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 0px 20px #b8b5b5;
+  width: 77%;
+  padding: 12px 0px;
+}
+.row.m-auto.small {
+  width: 86%;
+}
+
+
+.mini_div img {
+  margin-bottom:10px;
+  border-radius:30px
+}
+
+
+.mini_div span {
+  font-family: cursive;
+  font-weight: 600;
+color:#888787;
+}
+
+.container.missingPart {
+  background: #f6f7fb;
+  margin-top: 5%;
+  padding: 5%;
+}
+.day.text-center, 
+.hours.text-center, 
+.min.text-center ,
+.sec.text-center {
+  padding: 10px 22px;
+  background: white;
+  border-radius: 50%;
+}
+span.time {
+  font-weight: 700;
+}
+
+
+h2.enhance {
+  font-size: 3rem;
+  color: #292930;
+}
+
+.missContainer {
+  font-size: 20px;
+  color: #ff497c;
+}
+
+.missContainer i {
+  background: #ff497c;
+  color: white;
+  padding: 5px;
+  border-radius: 17px;
+  font-size: 16px;
+}
+.time_container button {
+  border: navajowhite;
+  padding: 15px 20px;
+  background: #3577f0;
+  color: white;
+  font-weight:600
+}
+
+
+/* right side */
+img.img-fluid.image {
+  margin-top: -156px;
+}
